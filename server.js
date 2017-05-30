@@ -1,8 +1,14 @@
-var http = require('http');  
-var server = http.createServer(function(req, res) {   
-res.writeHead(200);  
- res.end('Hello Http'); 
-}); 
-server.listen(8080);
+var express = require('express');
+var exphbs  = require('express-handlebars');
 
-app.use(express.static('public'))
+var app = express();
+
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
+app.use(express.static('client'));
+
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
+})
