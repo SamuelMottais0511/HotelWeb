@@ -8,7 +8,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static('client'));
 
-app.get('/game/', function (req, res) {
+app.get('/chat/', function (req, res) {
     var serverPick = "Cool",
         playerPick = req.params.playerChoice;
     // res.send(confrontation(serverPick,playerPick));
