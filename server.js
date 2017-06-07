@@ -8,11 +8,11 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static('client'));
 
-app.get('/', function (req, res) {
+app.get('/chambres', function (req, res) {
     var serverPick = "Cool",
         playerPick = req.params.playerChoice;
     // res.send(confrontation(serverPick,playerPick));
-    res.render('game',{gameResult:"You are the champion."});
+    res.render('chambres',{gameResult:"You are the champion."});
 })
 
 app.get('/samuel', function (req, res) {

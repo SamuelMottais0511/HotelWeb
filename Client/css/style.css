@@ -1,0 +1,22 @@
+.jumbotron { 
+    background-color: #f4511e; /* Orange */
+    color: #ffffff;
+    background-image: url("http://trendly.fr/wp-content/uploads/sites/3/2015/10/chambre-avec-vue-14.jpg");background-position: center center;background-size: cover;height: 300px; width: 100%; background-repeat: repeat-x; background-attachment: fixed;
+    padding: 60px 50px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+.logo{
+ font-size: 200px; 
+ }
+ .parisdecouverte flex box{
+    height: 10px;
+    width: 60px; 
+    border: none;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+    flex-direction: column;
+  }
