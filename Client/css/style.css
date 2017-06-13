@@ -1,22 +1,76 @@
+body {
+ background-color: lightblue;
+}
+
 .jumbotron { 
-    background-color: #f4511e; /* Orange */
+    background-color: #f4511e; 
     color: #ffffff;
     background-image: url("http://trendly.fr/wp-content/uploads/sites/3/2015/10/chambre-avec-vue-14.jpg");background-position: center center;background-size: cover;height: 300px; width: 100%; background-repeat: repeat-x; background-attachment: fixed;
     padding: 60px 50px;
 }
 
+/*
 .container-fluid {
     padding: 60px 50px;
 }
 .logo{
  font-size: 200px; 
  }
- .parisdecouverte flex box{
+ .parisdecouverte{
     height: 10px;
-    width: 60px; 
+    width: 100%; 
     border: none;
     box-sizing: border-box;
     position: relative;
     background-size: cover;
     flex-direction: column;
+    clear:both;
+    float:right;
   }
+
+.home__hotel 
+.home__hotel__block {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.flex-box-stretch {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+.flex-box {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.home__hotel 
+.home__hotel__block 
+.home__hotel__block__content {
+    width: 100%;
+    padding: 50px;
+}
+.home__hotel {
+    position: relative;
+}
+.home__hotel__cover {
+    position: relative;
+    z-index: 0;
+    display: -webkit-box;
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 300px;
+    padding: 0 15px;
+    background-position: bottom;
+    background-size: cover;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}

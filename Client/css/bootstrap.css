@@ -1607,6 +1607,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 .row {
   margin-right: -15px;
@@ -6007,8 +6008,6 @@ button.close {
   white-space: normal;
   filter: alpha(opacity=0);
   opacity: 0;
-
-  line-break: auto;
 }
 .tooltip.in {
   filter: alpha(opacity=90);
@@ -6132,8 +6131,6 @@ button.close {
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
           box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-
-  line-break: auto;
 }
 .popover.top {
   margin-top: -10px;

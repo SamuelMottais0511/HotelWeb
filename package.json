@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/SamuelMottais0511/HotelWeb/issues"
   },
-  "homepage": "https://github.com/SamuelMottais0511/HotelWeb#readme"
+  "homepage": "https://github.com/SamuelMottais0511/HotelWeb#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0"
+  }
 }
