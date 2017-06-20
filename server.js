@@ -13,7 +13,7 @@ app.get('/chambres', function (req, res) {
     res.render('chambres',{gameResult:"You are the champion."});
 })
 
-app.get('/hotelparis', function (req, res) {
+app.get('/accueil', function (req, res) {
 
     res.render('accueil',{gameResult:"You are the champion."});
 })    
@@ -28,6 +28,10 @@ app.get('/restaurant', function (req, res) {
     res.render('restaurant',{gameResult:"You are the champion."});
 })  
 
+app.get('/contact', function (req, res) {
+    
+    res.render('contact',{gameResult:"You are the champion."});
+}) 
 app.listen(2929, function () {
   console.log('Example app listening on port 2929!')
 })
