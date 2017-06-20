@@ -93,6 +93,7 @@ color: red;
 #headerwrap {
     background-color: #566573;
     color: #1C2833  ;
+
     height: 570px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,6 +140,7 @@ color: red;
 	font-weight: 40px;
     font-size: 50px;
     color: #1C2833  ;	
+
 }
 
 .navbar-brand {
@@ -151,6 +153,11 @@ color: red;
 
 .navbar-default {
 	background-color: white;
+	color: darkblue;
+}
+
+.navbar-default {
+	background-color: transparent;
 	border-color: transparent;
 }
 
@@ -162,6 +169,12 @@ color: red;
 
 .navbar-default .navbar-nav > li > a {
 	color: #1C2833  ;
+	color: red;
+	background-color: transparent;
+	border-bottom: 2px solid red;
+}
+
+.navbar-default .navbar-nav > li > a {
      font-weight: bold;
 }
 
@@ -172,7 +185,7 @@ color: red;
 }
 
 #footerwrap p {
-	color: #D4E6F1  ;
+	color: #D4E6F1;
 	margin-left: 100px;
     text-align: center;
 }
@@ -181,6 +194,7 @@ color: red;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #D4E6F1  ;
+r
 }
 
 #social i {

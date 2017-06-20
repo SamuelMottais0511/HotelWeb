@@ -38,6 +38,7 @@ app.get('/restaurant', function (req, res) {
 app.get('/contact', function (req, res) {
     
     res.render('contact',{gameResult:"You are the champion."});
+
 });
 
 app.post('/contact', function (req, res) {
